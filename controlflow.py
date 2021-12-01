@@ -38,11 +38,31 @@ sub5 = float(input("enter the  marks in fifth subject"))
 avg = ((sub1 + sub2 + sub3 + sub4 + sub5)/5)
 if(avg>=90):
     print("Grade: A")
-elif(avg>=80&avg<90):
+elif(avg>=80 and avg<90):
     print("Grade: B")
-elif(avg>=70&avg<80):
+elif(avg>=70 and avg<80):
     print("Grade: C")
-elif(avg>=60&avg<70):
+elif(avg>=60 and avg<70):
     print("Grade: D")
 else:
     print("Grade: E")
+
+
+
+
+
+Program to Find the Sum of Natural Numbers
+
+
+
+num = 16
+
+if num < 0:
+   print("Enter a positive number")
+else:
+   sum = 0
+   
+   while(num > 0):
+       sum += num
+       num -= 1
+   print("The sum is", sum)
