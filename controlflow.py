@@ -53,8 +53,6 @@ else:
 
 Program to Find the Sum of Natural Numbers
 
-
-
 num = 16
 
 if num < 0:
