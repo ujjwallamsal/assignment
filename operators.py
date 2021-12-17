@@ -40,3 +40,5 @@ quotient=a//b
 remainder=a%b
 print("Quotient is:",quotient)
 print("Remainder is:",remainder)
+
+print(remainder)
